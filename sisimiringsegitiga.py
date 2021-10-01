@@ -1,6 +1,4 @@
-# Program menghitung panjang sisi miring segitiga sama kaki #
-alas = input("Masukkan panjang alas : ")
-tinggi = input("Masukkan panjang tinggi : ")
-sisimiring = alas*alas + tinggi*tinggi
-hasil = math.sqrt(sisimiring)
-print("Sisi miringnya adalah : " + str(hasil))
+# Printing the table in as you mention
+tables = int(input("Enter the table number you want to print it"))
+for i in range(1,11):
+  print(i,"*",tables," = ",i*tables)
